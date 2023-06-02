@@ -1,7 +1,8 @@
 body {
-    background: rgb(125, 198, 205);
-    color: rgb(45, 45, 45);
-    padding: 10px;
+    background: rgb(100, 149, 237);
+    border-radius: 30px
+    color: rgb(29, 3, 69);
+    padding: 50px;
     font-family: arial;
 }
 #all-contents {
@@ -11,18 +12,23 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(239, 80, 41);
+    background: rgb(255, 229, 180);
+    border-radius: 5px;
    margin: 0 auto;
+   margin-bottom: 8px;
     display: flex;
     padding: 10px;
 }
+ 
 h1 {
     display: flex;
     align-items: center;
-    color: white;
-    flex: 1;
+    color: rgb(78, 75, 75);
+    flex: 5;
     margin: 0;
+   
 }
+
 #nav-ul {
     list-style-image: none;
 }
@@ -32,12 +38,13 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #4f4d4d;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(250, 250, 250);
+    border-radius: 30px;
     display: flex;
 }
 .sidebar {
@@ -46,6 +53,7 @@ main {
 }
 .sidebar-img {
     width: 200px;
+    border-radius: 20px;
 }
 .content {
     flex: 1;
@@ -54,7 +62,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(124, 118, 118) ridge;
     padding: 8px;
 }
 h2, h3 {
